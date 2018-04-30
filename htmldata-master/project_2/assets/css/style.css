@@ -1,0 +1,207 @@
+/* 5.)<---------- Banner Styles Start ---------------------------------------------*/	
+div.banner{
+	padding:44px 0 65px 0;
+	text-align:center;
+	
+	}
+div.banner h1 strong{
+	display:block;
+	font-size: 30px;}			
+/*<-------Banner Styles End ---------------------------------------------*/
+/* 6.)<---------- Content Styles Start ---------------------------------------------*/
+
+div.content div.left-content{
+	width:731px;
+	float: left;
+	margin-right:33px;
+}
+div.info{
+	margin-bottom:49px;
+}
+
+	
+div.left-content span{
+	font-family:Arial;
+	font-size: 21px;
+	font-weight:400;
+	color: red;
+	display:inline-block;
+	padding:0 0 39px 4px;
+	
+}
+div.left-content div input.large-button{
+    float:left;
+    font-size:14px;
+    padding:14px 22px 15px 20px;
+    margin-right:12px;
+    border: none;
+    }	
+.button:hover{
+	background-color: #333333;
+}
+   	
+div.content div.right-content{
+	float: left;
+	padding-left:21px;
+	width:260px;
+	border-left: 1px solid #cccccc;}
+.right-content ul li a{
+	color:#0c4c98;
+	}
+.right-content ul.services{
+	padding-top:7px;
+	margin-bottom:22px;}
+.right-content ul.services li{
+	padding-left:10px;
+	position: relative;}
+			
+.right-content ul li {
+	font-size:14px;
+	font-weight:400;
+	font-family:Arial;
+	line-height: 1.7;}
+	
+.right-content ul li::before{
+	content:url(../images/pointer.png);
+	position:absolute;
+	left:-1px;
+	top:10px;
+	
+}	
+.right-content .right-bottom ul li span.left{	
+	width: 131px;
+	float: left;
+	padding: 4px 0 0 6px;}
+	
+.right-content .right-bottom ul li span.right{
+	float:left;
+	width:52px;
+	padding-left:6px;
+	font-size:18px;	
+	font-family:Arial;
+	color:#0c4c98;}
+
+
+	
+div.content-table{
+	margin: 0 75px 72px 75px;
+	width: 873px;}
+form.above-table{
+	margin-bottom:50px;
+	border: 1px solid #cccccc;}	
+div.table-header{
+	font-weight:900;
+	font-family:Liberation sans;
+	color: #0c4c98;
+	padding: 11px 11px 9px 14px;
+	background-color:#eeeeee;
+	border-bottom: 1px solid #cccccc;}
+div.table-header div{float: right;}
+
+div.table-header label{
+	font-size:14px;	
+	padding-right:16px;
+	position: relative;}
+	
+	
+div.table-header label::after{
+	content:url(../images/color-pointer.png);
+	position: absolute;
+	top:6px;
+	right: 5px;}	
+	
+		
+div.table-header input.text{	width:97px;
+	padding:7px 0 9px 9px;
+	margin-right:10px;}
+	
+input.button{
+	background-color: #0c4c98;
+	font-size: 12px;
+	font-family: arial;
+	font-weight: 400;
+    border-radius: 4px;
+    border:none;
+    color: white;}	
+input.medium-button{
+   	padding: 9px 12px 11px 10px;
+   } 
+div.table-header div input.small-button{
+	padding: 9px 10px 10px 11px;}
+table{
+	font-size:12px;
+	padding-top:10px;}
+table tr th{
+
+	text-align: left;
+	color: #0c4c98;
+	padding:8px 0 7px 9px;
+	font-weight: bold;}
+table tr{
+	border-bottom: 1px solid #cccccc;
+	box-sizing:border-box;
+	font-family: Arial;
+	font-weight:400;}
+table tr td{
+	padding: 5px 0 7px 9px;
+	position: relative;}
+table tr td i.sprite{
+	background:url(../images/sprite.png);
+	background-position:-15px 0;
+	position:absolute;
+	height: 18px;
+	width:18px;
+	top:6px;
+	left:6px;}
+table tr.second-row{
+	background-color:#f6f6f6;
+}	
+
+table tr td i.sprite.cancel{
+	background-position:-33px 0;
+	left:4px;}	
+.table-bottom{
+	background-color: #eeeeee;
+	padding:5px 0 6px 13px;
+	border-bottom: 1px solid #cccccc;}						
+.table-bottom input.button{
+	padding: 5px 13px 7px 12px;
+	margin-right: 8px;}
+.table-bottom select{
+ 	width:112px;
+	padding:4px 0px 7px 4px;}
+	
+	
+	
+	
+	
+form.below-table{border: 1px solid #cccccc;}	
+table tr td i.sprite.dollar{
+	background-position:-52px 0;
+	left:8px;}	
+table tr td i.sprite.view{
+	background-position:-71px 0;
+	left:8px;}
+form.below-table div.condition span{
+	display:inline-block;
+	padding:5px 0 4px 12px;
+	font-size: 11px;
+	font-family: Arial;}
+form.below-table div.table-header span{padding-right:14px;}
+form.below-table div.table-header input.text{
+	width:70px;
+	padding:7px 0 8px 9px;
+	margin-right:9px;}
+			
+
+	
+	
+	
+	
+	
+	
+	
+
+		
+	
+	

@@ -1,0 +1,294 @@
+/************************************************************************************
+larger than 1199
+*************************************************************************************/
+@media screen and (min-width: 1199px) {
+.header-main .navbar-brand{
+	width:100%;
+}
+
+
+.header-main ul.nav{
+	margin-left:104px;
+}
+
+}
+
+
+
+
+
+/************************************************************************************
+larger than 991
+*************************************************************************************/
+@media screen and (min-width: 991px) {
+.banner h1{	
+	font-size: 45px;}
+h2{
+	font-size:32px;
+}
+.header-main .input-group{
+	float:right;
+	margin-top:22px;
+}
+.header-main .navbar-brand img{
+	width:auto;
+}
+/*banner section*/
+
+.banner{
+	padding:200px 0;
+}
+
+.banner span{
+	font-size: 18px;
+}
+.banner h1{	
+	font-size: 45px;}
+	
+/*about us	*/
+
+section.aboutus{
+	padding:82px 0;
+}
+/*tabbing*/
+.icon{
+	left: 4%;
+	margin:0;
+	bottom:22%;	
+}
+.footer-top ul.r-column{
+	margin-left: 30px;
+}
+.footer-top address{
+	font-size:14px;}
+}
+/************************************************************************************
+larger than 768 less than 991
+*************************************************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+.banner h1{	
+	font-size: 40px;}
+h2{
+	font-size:24px;
+}
+
+.header-main ul.nav li a{
+	padding:10px;
+}
+.header-main .input-group{
+	display: none;
+}
+
+.banner{
+	padding:100px 0;
+}
+.icon {
+	background-size:185px 23px;
+	width:20px;
+	height: 22px;
+	margin:0;
+	left: 2%;
+	bottom: 36%;
+}
+.icon.ship{
+	width: 18.5px;
+	background-position:-81px 0;
+}
+.icon.plane{background-position:-101px 0;}
+.icon.train1{background-position:-122px 0;}
+.icon.clock{background-position:-142px 0;}
+/*active css tab*/
+div.tab button.active .icon.ship{background-position:-2px 0;}
+div.tab button.active .icon.plane{background-position:-21px 0;}
+div.tab button.active .icon.train1{background-position:-42px 0;}
+div.tab button.active .icon.clock{background-position:-62px 0;}
+
+div.tab button {
+	font-size:14px;
+}
+
+
+.icon-mail {
+    transform: translateY(0);
+}
+.image-content h4{
+	font-size: 13px;
+}
+.enquiry-detail h4 {
+	font-size: 16px;
+}
+
+.logo-wrap img{
+	width: 100%;
+}
+.footer-top ul li a {
+	font-size: 12px;
+}
+.footer-top ul.r-column {
+	margin-right: 12px;
+}
+	
+}
+
+/************************************************************************************
+larger than 768
+*************************************************************************************/
+
+@media screen and (min-width: 767px){
+	
+
+
+
+.header-main ul.nav li{
+	padding-top:10px;
+}
+
+.navbar-header{
+	max-width: 198px;
+	width: 100%;
+	}
+.header-main .navbar-brand{
+	width:100%;
+}
+
+
+
+/*banner section*/
+
+
+.banner span{
+	font-size: 18px;
+}
+
+	
+
+/*aboutus section	*/
+.train{
+	width:34.5%;
+	float: left;
+}
+.aboutus-detail{
+	width:60.2%;
+	float: right;
+}
+.aboutus-detail h2{
+	margin:10px 0 30px 0;}
+h2::after{
+	bottom: -15px;
+}
+
+.aboutus-detail p{
+	margin-bottom:40px;
+}
+
+.btn{
+	padding: 14px 49px;
+}
+
+
+/*features section*/
+
+
+div.tab button {
+	color: #2c3740;
+	border-left: 1px solid #ccc;
+	border-bottom:1px solid #ccc;}
+
+div.tab button::after {
+	display: block;
+}
+.tabcontent p{
+	margin-bottom:35px;
+}
+
+/*section testimonial*/		
+
+
+.review-content figure{
+	float:left;
+	margin-right: 7.7%;
+} 
+.review-statemnet{
+	float:left;
+	width:74.1%;	
+}   
+.review-content p{
+	font-size:18px;
+	line-height: 30px;
+}    
+.testimonial-heading{
+	margin-bottom: 56px;
+}    
+    
+/*section enquiry*/
+.btn.contact{
+	float: right;
+	padding: 17px 42px;}
+
+.enquiry-detail{
+	width:65.9%;
+}
+
+/*section signup*/
+.icon-mail{
+	transform: translateY(50%);
+}
+
+
+/*footer section*/
+.logo-wrap{
+	margin-top: 61px;
+}
+
+.footer-top h5{
+	text-align:left;
+	margin-bottom: 40px;
+}	
+
+.footer-top .links ul{
+	float:left;
+}
+
+.footer-top .links ul li{
+	margin:5px 0;
+}
+.footer-top .links ul li a{
+	padding-bottom: 10px;
+	border-bottom: 1px solid #394650;
+}
+.footer-top .links ul li a:hover{
+	border-bottom: 1px solid #fff;
+}
+.footer-top address{
+	font-size:12px;}
+
+
+
+}
+
+@media (min-width: 991px) and (max-width: 1199px) {
+.icon{
+	left: 2%;}	
+
+div.tab button {
+	font-size:15px;
+}
+
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+.icon-mail {
+    transform: translateY(0%);
+}
+
+}
+
+
+
+
+
+
+
+
+
+

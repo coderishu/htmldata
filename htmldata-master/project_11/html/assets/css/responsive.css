@@ -1,0 +1,357 @@
+@media all and (max-width: 767px) {
+	.navbar-brand {
+    	width: 195px;}	
+	.navbar-toggle {
+   	 	margin-top: 15px;}
+	
+	.left-head{
+		float:none;
+		text-align:center;
+		margin-bottom: 10px;
+	}
+	.right-head{
+		float:none;
+		text-align:center;
+	}
+	
+	.portfolio .thumbnail img {
+		width:100%;
+	}
+	.portfolio .col-sm-6.col-md-3 {
+		padding: 0 15px;
+	}
+	
+	.build{
+		padding: 0 15px;
+	}
+	.properties .row {
+		margin-bottom: 50px;
+	}
+	
+	.build img{
+		width: 100%;
+		margin-bottom: 5px;
+	}
+	.footer-bottom ul li {
+		float: none;
+		margin-bottom: 8px;
+		list-style: none;
+	}
+	.copy{
+		float: none;
+		margin-bottom: 10px;
+		display: inline-block;
+	}
+	
+	.image-content {
+		width: 50%;
+		top: 50%;
+		left: 50%;
+		margin: 0 auto;
+		transform: translateY(-50%);
+		left: 0;
+		right: 0;
+	}
+	.image-content h3 {
+		font-size: 25px;
+	}
+	
+}
+@media all and (min-width: 768px) {
+	h2{
+		font-size: 24px;
+	}
+	.dropdown-menu {
+		padding-left: 6%;
+	}
+	
+	.gaia::after {
+		right: -14px;
+	}
+	
+	
+	.right-head{
+		display: block;
+	}
+	.header-top a{
+    		margin-right: 20px;
+    	}
+	.nav.navbar-nav{
+		float: right;
+		padding: 20px 0 0;
+	}
+	.navbar.navbar-default{
+		position: absolute;
+		width: 100%;
+		z-index: 1;
+	}
+	.navbar-header{
+		float:left;
+		width:32%;
+	}
+	.navbar > .container .navbar-brand{
+		padding: 10px 0;
+		margin: 0;}
+	
+	.collapse.navbar-collapse{
+		float: right;
+	}
+	.navbar-collapse{
+		padding: 0;
+	}
+	.navbar-brand{
+		width: 83%;}
+	.navbar-nav > li{
+    		margin-right: 15px;
+    		}
+    .navbar-nav > li:last-child{
+    		margin-right: 0px;
+    		}		
+    .nav.navbar-nav li a{
+    	padding: 0;
+    	font-size: 12px;
+    }		
+    .carousel-indicators {
+    	left:auto;
+    	bottom: 9px;
+    	right: 12%;
+    	text-align:right;
+    	max-width: 300px;
+	}
+    .image-content {
+		width: 66%;
+		top: 50%;
+		left: 50%;
+		margin: 0 auto;
+		transform: translateY(-50%);
+		left: 0;
+		right: 0;
+	}
+    
+    
+    
+    /*Banner*/
+  
+   
+   .carousel-caption h1{
+   	font-size: 27px;
+   	font-weight: 700;
+   	color: #fff;
+   	line-height: 1.2;
+   	margin-bottom: 10px;
+   }
+   .carousel-caption p{
+   	font-size: 12px;
+   	font-weight: 400;
+   	color:#fff;
+   	margin-bottom: 22px;
+   }
+   .carousel-caption a.btn{
+   	font-size: 12px;
+   	font-weight: 400;
+   	padding: 10px 31px;
+   }
+   .carousel-caption{
+   	left: 12%;
+	top: 36%;
+	width: 39%;
+	text-align:left;
+	}
+	
+	.carousel-inner .item{
+   		height:478px;
+   }
+    .slider-house{
+		display: block;
+	}
+    
+    
+    /*gallery*/
+    .portfolio{
+		padding-top:80px;
+		margin-bottom: 61px;
+		}
+		
+	.portfolio h2{
+		margin-bottom: 40px;
+		}	
+    .thumbnail .caption {
+    	padding: 4px 45px 0;
+		}
+	.footer-top .contact p {
+		font-size: 15px;
+		margin: 0;
+	}	
+	.footer-top .contact p strong {
+		font-size: 18px;
+		margin-left: 20px;
+	}
+	.footer-main{
+		text-align: left;
+	}
+	
+}
+
+@media all and (min-width: 992px) {
+		.navbar-nav > li {
+    		margin-right: 16px;
+    		}
+    	.header-top a{
+    		margin-right: 29px;
+    	}	
+    	.gaia::after {
+			right: -17px;
+		}
+    	.nav.navbar-nav{
+    		padding: 50px 0 0;
+    	}
+    	.nav.navbar-nav li a{
+    		font-size: 16px;
+    	}
+    	.navbar > .container .navbar-brand{
+			width: 83%;
+			}
+    	.carousel-inner .item{
+   			height:678px;
+  		 }
+  		.carousel-caption h1{
+   			font-size: 46px;
+   			margin-bottom: 30px;} 
+   		.carousel-caption p{
+   			font-size: 16px;
+   			margin-bottom: 42px;}	
+   		.carousel-caption a.btn{
+   			font-size: 15px;}	
+   			
+   		.house h3{
+			font-size: 24px;
+			}	
+		.house{
+			width:64%;
+			padding-bottom: 25px;
+			}
+		.icon-house{
+			margin: 23px 0px 0 14px;
+		}		
+  		 .search{
+  		 	margin: 24px 0 0 -6px;
+  		 }
+  		 
+  		 
+  		 
+  		 
+  		 /*gallery*/
+  		.portfolio{
+  			margin-bottom: 61px;
+  		}
+  		
+  		.portfolio{
+			padding-top:157px;
+			}
+  		 .portfolio h2{
+			margin-bottom: 54px;
+			}
+			
+		.portfolio .thumbnail img{
+			margin-right: 5px;
+			
+		} 	
+		.thumbnail .caption {
+    		padding: 4px 25px 0;
+    		}
+    	.thumbnail .caption h4 {
+    		margin-bottom: 1px;
+    	}		
+    	.caption p {
+    		width: 80%;
+    		line-height: 21px;
+    		margin-bottom: 3px;
+    	}
+    	.feature-thumb span {
+   			display:inline-block;
+   			margin:0 26px 5px 0;
+   			}
+   			
+   		.properties{
+			padding:28px 0;
+			}	
+		.properties .row{
+			margin-bottom:107px;
+			}	
+   		.image-content{
+   			padding: 16px 3% 24px;
+   		}	
+   		.image-content h3 {
+   			font-size: 24px;
+   			margin: 0 0 10px 0;
+   		}
+   		.image-content p {
+			font-size: 12px;
+			line-height: 1;
+			margin-bottom: 10px;
+			 		
+   		}
+   		.image-content .btn{
+   			font-size: 14px;	
+   			padding: 8px 15px;
+   		}
+   		
+   		.second{ padding-left:2.7%;}
+
+		.third{padding-left: 5.8%;}
+
+		.fourth{padding-left: 10%;}
+
+}
+@media all and (min-width: 1240px) {
+	.container{
+		width: 1230px;
+	}
+	.nav.navbar-nav li a{
+    		font-size: 18px;
+    	}
+	.navbar-nav > li {
+    		margin-right: 29px;
+    		}
+	.image-content{
+   			padding: 28px 5% 35px;
+   		}	
+   	.image-content h3 {
+   			font-size: 30px;
+   			margin: 0 0 17px 0;
+   		}
+   	.image-content p {
+			font-size: 14px;
+			line-height: 1.2;
+			margin-bottom: 21px;
+			 		
+   		}
+   	.image-content .btn{
+   			font-size: 15px;	
+   			padding: 8px 30px;
+   		}
+	
+	.portfolio .row{
+		margin: 0;
+	}
+	.portfolio .thumbnail{
+		margin-right: 15px;
+	}
+	
+	..portfolio img{
+		width: 100%;
+	}
+	.thumbnail .caption {
+    	padding: 6px 12px 0;
+	}	
+}
+
+
+
+
+
+
+
+
+
+

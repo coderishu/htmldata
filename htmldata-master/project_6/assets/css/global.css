@@ -1,0 +1,403 @@
+/*=============================================
+ Table Of Contents
+ 1.) Eric Meyer's Reset
+ 2.) Global Typography
+	 2.0.1) Font Face
+	 2.0.2) Global Headings
+	 2.0.3) General Text Formatting
+	 2.0.4) Global Link style
+	 2.0.5) Global Button Styles
+	 2.0.6) Global Sprite Icons and Clearfix style
+ 3.) Global Site Wide Content
+ 4.) Header Style
+ 5.) Footer Style
+ ===============================================*/
+/* 1.) Eric Meyer's Reset ---------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;}
+
+body {
+	line-height: 1;}
+	
+	
+ol, ul {
+	list-style: none;}
+	
+blockquote, q {
+	quotes: none;}
+	
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 2.) Global Typography ---------------------------------------------*/
+*, :before, :after{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-size: 100%;
+}
+body {
+	font-family:'titilliumregular';
+	color: #000;
+}
+/* 2.0.1) Font Face ---------------------------------------------*/
+/* Put Your font face Styles here---------------------------------------------*/
+@font-face {
+    font-family: 'titilliumregular';
+    src: url('../fonts/titillium-regular-webfont.eot');
+    src: url('../fonts/titillium-regular-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/titillium-regular-webfont.woff') format('woff'),
+         url('../fonts/titillium-regular-webfont.ttf') format('truetype'),
+         url('../fonts/titillium-regular-webfont.svg#titilliumregular') format('svg');
+}
+
+@font-face {
+    font-family: 'titillium_bdbold';
+    src: url('../titillium-bold-webfont.eot');
+    src: url('../titillium-bold-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../titillium-bold-webfont.woff') format('woff'),
+         url('../titillium-bold-webfont.ttf') format('truetype'),
+         url('../titillium-bold-webfont.svg#titillium_bdbold') format('svg');
+
+}
+
+/* 2.0.2) Global Headings ---------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	color: #161e21;
+}
+h1 {
+	font-size: 35px;
+	color: #04355a;
+	
+}
+h2 {
+	font-size:35px;
+	color:#04355a;
+}
+h3 {
+	font-weight:700;
+	font-size:21px;
+	color:#04355a;
+	margin-bottom:11px;
+}
+h4 {
+	font-size: 35px;
+	text-align: center;
+	color: #ffffff;
+	margin-bottom: 40px;
+}
+h5 {
+
+}
+h6 {
+
+}
+/* 2.0.3) General Text Formatting ---------------------------------------------*/
+p {
+	font-size:21px;
+	color: #04355a;
+	line-height: 28px;
+	margin-bottom:27px;
+	word-spacing: 1px;
+
+}
+blockquote, cite, q, var, dfn {
+	font-style: italic;
+}
+small {
+	font-size: 85.71429%;
+	line-height: 1.75;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+/* 2.0.4) Global Link style ---------------------------------------------*/
+a {
+	color: #000;
+	font-size: 15px;
+	text-decoration: none;
+	outline: none;
+	font-weight: 700;
+}
+a:hover, a:focus {
+	color:#7b83d1;
+}
+/* 2.0.5) Global Button Styles ---------------------------------------------*/
+.button {
+	background-color: #6fc5e7;
+	padding: 15px 26px;
+	font-size: 21px;
+	color: #FFFFFF;
+	/*display: inline-block;*/
+	text-decoration: none;
+
+}
+
+.button:hover, .button:focus{
+	
+}
+input {
+    box-sizing: border-box;
+    width: 100%;
+    height: 50px;
+    font-size: 19px;
+    border: none;
+    color: #819aac;
+    padding: 0px 15px;
+    background-color: #FFFFFF;
+    border: 1px solid #bccbd4;
+    -webkit-appearance: none;
+    
+}
+/* 2.0.6) Global Sprite Icons and Clearfix style ---------------------------------------------*/
+[class^="icon-"], [class*="icon-"] {
+	background-image: url(../images/sprite.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 15px;
+	vertical-align: text-top;
+	width: 15px;
+}
+/* Clear Floated Elements by use Clearfix class---------------------------------------------*/
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* 3.) Global Site Wide Content ---------------------------------------------*/
+body{
+	/*background:url(../images/homepage.jpg) top center no-repeat;*/
+	  /*background:url(../images/promoters.jpg) top center no-repeat;*/
+
+}
+
+#wrapper {
+	/*opacity: 0.5;*/
+}
+
+	.float-left {
+		float: left;
+	}
+	.float-right {
+		float: right;
+	}
+
+/* ------------------  Code for UI Tools Removed this section from your project --------------------------- */
+.container
+{
+	max-width:945px;
+	margin: 0 auto;
+
+}
+
+
+/* 4.) Header Styles ---------------------------------------------*/
+.header {
+	background: #ffffff;
+	padding: 39px 0px 27px;
+	position: relative;}
+
+.header.animateIt {
+    position:fixed;
+    padding:0px;
+    background-color:red;
+   	top:-150px;
+    left: 0;
+    right: 0;
+    z-index:999;
+    transition:0.4s top cubic-bezier(.3, .73, .3, .74);}
+
+body.down .header.animateIt {
+    top:0;}
+.header .image-wrapper{
+	float: left;
+}
+.header .logo {
+	display:inline-block;
+	padding-top:7px;}
+.header .topnav{
+	float: right;
+}
+
+.header .nav-bar {
+	
+	display: block;
+	z-index: 1;
+	transition:none;}
+.header ul.nav-bar li{
+	float: left;
+	padding: 16px 0px 24px 22px;}
+	
+.header ul.nav-bar li:last-child{
+	padding:0 0 10px 34px;}	
+	
+	
+.header ul li a {
+	font-size: 21px;
+	color: #04355a;
+	text-decoration: none;
+	letter-spacing: 0.3px;
+	display: inline-block;}
+
+.header ul li a:hover{
+	color:#6fc5e7;}
+	
+.header ul li a.button {
+	color: white;}
+
+.nav-button {
+	background: none;
+	border: none;
+	float: none;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+	outline: none;
+	cursor: pointer;
+	position: absolute;
+	right: 3%;
+	display: none;
+	z-index: 1;
+	outline: none;}
+	
+.nav-button span {
+	display: block;
+	width: 100%;
+	height: 5px;
+	margin-bottom: 3px;
+	background: #6fc5e7;}
+	
+.bar1, .bar2, .bar3 {
+    width: 35px;
+    height: 5px;
+    background-color: #333;
+    margin: 6px 0;
+    transition: 0.4s;}
+    
+#login {
+	position: fixed;
+	top: 0px;
+	left: 0px;
+	height: 100%;
+	width: 100%;
+	z-index: 2;
+	background-color: rgba(37,78, 112, 0.8);
+	text-align: center;
+	display: none;
+    transition:none;
+    overflow: scroll;}
+
+#login_form {max-width:320px;
+	width:100%;
+    background-color: #6fc5e7;
+	position: relative;
+	margin:auto;
+    top:20%;
+    left:0;right:0;
+	padding: 45px 15px 55px;
+	box-sizing: border-box;
+	z-index: 30;
+	transition:none;
+	margin-bottom:42px;}
+	
+#login .close {
+	float: right;
+	position: relative;
+	top: -38px;
+	right: -8px;
+	height: 20px;
+	width: 20px;
+	display: block;}
+	
+#login_form ul {
+	margin-bottom: 30px;}
+
+#loginbtn{
+	background-color:#00345c;}
+
+	
+#login_form span {
+	display: block;
+	font-size: 15px;
+	line-height: 1.4;
+	width: 92%;
+	padding-left: 20px;}
+
+#login_form span a {
+	color: #000000;
+	text-decoration:underline;}
+	
+#login_form span a:hover{
+	text-decoration:none;}	
+
+
+/* 5.) Footer Styles ---------------------------------------------*/
+.footer-content{
+	padding:34px 0px;
+	background-color:#04355a;}
+
+div.left-content{
+	width:36.5%;
+	float: left;}
+
+div.left-content p{
+	font-size:13px;
+	color: #fff;
+	line-height: 16px;
+	padding-top: 6px;}
+
+div.right-content{
+	float: right;
+	width:28%;}
+	
+div.right-content span{
+	display:block;
+	float:right;
+	font-size:21px;
+	line-height: 28px;
+	display:block;
+	color:#fff;}
+
+div.right-content span a{
+	font-size:21px;
+	color:#fff;
+	font-weight: 400;
+	text-decoration: underline;}
+div.right-content span a:hover{
+	text-decoration: none;
+}	
+	
+
+div.right-content span.copyright{
+	font-weight: 700;}

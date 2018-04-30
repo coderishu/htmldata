@@ -1,0 +1,431 @@
+/*5.)Banner styles-->*/
+div.banner img{
+	height:561px;
+	width: 100%;}
+div.banner{
+	position: relative;
+	margin-bottom: 73px;}
+	
+div.banner div.container{
+	position:absolute;
+	top: 0;
+	left:0;
+	right:0;
+	padding-top:169px;
+	text-align:center;
+}	
+div.banner div.container h1 span{
+	display: block;
+	padding-bottom:13px;}
+	
+div.banner div div.button-wrapper span{
+	font-size:16px;
+	display:inline-block;
+	padding-right:9px;
+	color:#999999;}
+
+.button-wrapper a.button{
+	display: inline-block;
+	width:259px;
+	padding: 16px 18px 20px 5px;
+	margin: 0 16px 0 17px;}
+	
+.button-wrapper a.button.left{
+	background-color:#0096c7;}
+	
+.button-wrapper a.button.right{
+	background-color:#e99415;
+	position: relative;}
+	
+.button-wrapper a.button.right i.sprite.sprite1{
+	position: absolute;
+	background:url(../images/sprite.png) no-repeat;
+	background-position:5px 0;
+	width:21px;
+	height:19px;
+	right: 63px;
+	top: 17px;
+	
+
+}	
+		
+	
+.button-wrapper span{
+	position: relative;}
+	
+.button-wrapper span:before{
+	content:" ";
+	position: absolute;
+	background-color:#999999;
+	width:1px;
+	height:13px;
+	top: -17px;
+	left: 10px;}
+	
+.button-wrapper span:after{
+	content:" ";
+	position: absolute;
+	background-color:#999999;
+	width:1px;
+	height:13px;
+	top:21px;
+	left:10px;}
+			
+div.button-wrapper a.button.left:hover{
+	background-color:#e99415;
+}
+div.button-wrapper a.button.right:hover{
+	background-color:#0096c8;
+}			
+		
+	
+		
+	
+/*6.)Content styles-->*/
+div.content div.content-review ul{
+	margin-bottom:31px;
+	text-align:center;}
+
+div.content div.content-review ul li{
+	display:inline-block;
+	position:relative;
+	margin: 0 33px 0 35px;}
+div.content div.content-review ul li.guitar-player{
+	padding:0 0 0 0;
+}
+	
+	
+	
+div.content div.content-review ul li:hover:after{
+	content:" ";
+	position: absolute;
+	background:url(../images/sprite.png) no-repeat;
+	background-position: -16px 0;
+	width:32px;
+	height:18px;
+	left: 40%;
+	bottom: -46%;}
+div.content div.content-review ul li{
+	opacity:0.3;}
+div.content div.content-review ul li:hover{
+	opacity: 1;}	
+		
+	
+div.logo-info{
+	border: 1px solid #cccccc;
+	padding:44px 55px 49px;
+	margin-bottom:98px;
+	background-color:#f3f3f3;
+	text-align: center;}
+	
+div.content div div.logo-info p{
+	font-family:'Noto Sans', sans-serif;
+	font-size:24px;
+	font-weight:400;
+	font-style: italic;
+	line-height: 45px;
+	margin-bottom:26px; }	
+	
+
+	
+	
+	
+div.content div div strong a{
+	font-family:'Noto Sans', sans-serif;
+	font-size:16px;
+	color:#0096c2;}
+	
+	
+h2:before{
+   	content:" ";
+	position: absolute;
+	background-color:#0096c8;
+	width:80px;
+	height:4px;
+	top:-84%;
+	right:46%;}
+	
+	
+div.user-reviews{
+	margin:33px 62px 84px;
+	text-align: center;}
+		
+div.user-reviews div.review-content h3 {
+	font-family:'Noto Sans', sans-serif;
+	font-size:16px;
+	color:#44b2d6;
+	text-align:left;}
+	
+div.user-reviews div.review-content{		
+	width:519px;
+	float:left;
+	padding:22px 38px 19px 20px;
+	margin-bottom:43px;
+	line-height:30px;
+	font-style:italic;
+	font-family:'Noto Sans', sans-serif;
+	font-size:18px;
+	color:#666666;
+	text-align:left;
+	border:1px solid #cccccc;
+	border-top: 3px solid #0096c7;
+	box-shadow: 2px 2px 5px #888888;}
+div.user-reviews div.review-content.left{
+	margin-right:38px;}	
+	
+div.user-reviews a{
+	background:#e99415;
+	display:inline-block;
+	padding: 16px 28px 17px 28px;
+	word-spacing: -5px;}	
+	
+div.user-reviews a:hover{
+	background-color:#0096c7;
+}	
+
+	
+	
+	/*second part content*/
+	
+div.black-background{
+	background:url(../images/guitarimage-left.gif) left top no-repeat, url(../images/guitarimage-right.gif) right top no-repeat;
+	background-color:#2c3034;
+	margin-bottom:273px;
+	text-align:center;
+}	
+div.black-background h2{
+	
+	color: #ffffff;
+	padding-top:116px;
+	word-spacing:-10px;
+	margin-bottom:29px;
+}	
+div.black-background h2 span{
+	display:block;
+	margin-bottom: 15px;
+}	
+div.black-background h2:before{
+	top:87px;}		
+div.black-background p{
+	font-size:16px;
+	font-family: 'Noto Sans', sans-serif;
+	color:#b5b5b5;
+	padding:0 211px;
+	line-height: 28px;
+	margin-bottom: 29px;}	
+	
+.button.learn{
+	padding: 16px 26px;
+    display: inline-block;
+    background-color:#0096c7;    
+}	
+.button.learn:hover{
+	background:#e99415;
+}
+
+div.black-background a{
+	margin-bottom:305px;}
+div.black-background div.container{
+	position: relative;
+}	
+div.black-background div.guitar{
+	position: absolute;
+	left:13%;
+	bottom: -26%;
+}
+
+
+
+   /*third part content	*/
+div.gallery{
+	margin-bottom:78px;
+	text-align: center;
+}
+div.gallery h2{
+	margin-bottom:46px;
+}
+div.gallery ul{
+	float:left;
+	margin-bottom: 40px;
+}
+div.gallery ul:last-child{}
+
+div.gallery li{
+	float: left;
+	width: 381px;
+	margin-right:28px;
+}
+div.gallery li:last-child{
+	margin-right: 0;}
+
+div.gallery h3{
+	padding:15px 18px;
+	font-family: 'Source Code Pro';
+	font-size:18px;
+	font-weight:400;
+	color: #ffffff; 
+	text-align:left;
+	background-color:#0096c8;}	
+	
+div.gallery a.button.view{
+	padding:18px 26px;
+	display: inline-block;
+	background-color:#e99415;}
+	
+div.gallery a.button.view:hover{
+	background-color:#0096c8;
+}
+	
+	
+	
+/*third part content*/
+div.guitar-banner{
+	position:relative;
+	/*margin-bottom: 76px;*/
+}
+div.guitar-banner img{
+	width: 100%;
+	height:521px;
+}
+
+div.guitar-banner div.container{
+	position: absolute;
+	/*border: 1px solid yellow;*/
+	top:107px;
+	left:0;
+	right:0;
+}
+div.guitar-banner div.container div.banner-content{
+	/*border:1px solid red;*/
+	
+}
+div.guitar-banner div.first-block strong{
+	font-family:'Source Code Pro';
+	font-size: 28px;
+	font-weight:600;
+	color:#ffffff;
+	word-spacing: -6px;
+	padding: 13px 16px 12px 24px;
+	background-color:#0096c7;
+	display: inline-block;
+	margin-bottom:11px;
+}
+div.guitar-banner div.second-block strong{	
+	font-family:'Source Code Pro';
+	font-size: 48px;
+	font-weight:700;
+	color:#ffffff;
+	padding:12px 25px;
+	letter-spacing:2px;
+	display:inline-block;
+	background-color:#0096c7;
+	margin-bottom:12px;
+	}
+div.guitar-banner div.banner-content div ul{
+	width:304px;
+	background-color:red;
+	padding: 24px 3px 23px 24px;
+}
+
+div.guitar-banner div.banner-content div ul{
+	display: inline-block;
+	background-color:#ffffff;
+}
+	
+div.guitar-banner div.banner-content div ul li{
+	overflow: hidden;
+}	
+
+div.guitar-banner div.banner-content div ul li strong{
+	width: 101px;
+	font-family:'Noto Sans', sans-serif;
+	font-size:16px;
+	float:left;
+	line-height: 28px;}
+div.guitar-banner div.banner-content div ul li span{
+	width:176px;
+	font-family:'Noto Sans', sans-serif;
+	font-size:18px;
+	float:left;
+	line-height: 27px;
+	color: #666666;
+}
+
+/*strip area start*/
+div.strip{
+	background-color:#0096c7;
+	padding:43px 0;
+}
+
+div.strip p{
+	width:606px;
+	float: left;
+	font-size:24px;
+	color: #ffffff;
+	line-height: 40px;
+}
+
+div.strip a{
+	float:right;
+	padding: 17px 37px;
+	margin: 13px 0px;
+	color:#22a4ce;
+	background-color:#ffffff;}
+	
+div.strip a:hover{
+	background-color:#e99415;
+}
+
+/*Content Style page-2*/
+div.l-content{
+	width:885px;
+	margin-right:39px;
+	float: left;
+	
+}
+div.content-page2 h1{
+	font-size:36px;	
+	/*text-align: left;*/
+	color:#0096c7;
+	margin-bottom:24px;
+}
+div.content-page2 div.g-image{
+	float: right;
+	margin-left: 31px;
+}
+div.content-page2{
+	padding-top:69px;
+}
+
+div.content-page2 p{
+	font-size: 16px;
+	line-height: 28px;
+	color:#666666;
+}
+div.r-content{
+	float:right;
+}
+div.rc-g{
+	padding-top:9px;
+	margin-bottom:25px;
+}
+div.r-content ul li a{
+	font-size: 16px;
+	font-family:  'Droid Sans';
+	color:#666666;
+}
+div.r-content ul li{
+	padding: 11px 13px;
+	background: url(../images/color-arrow.png) no-repeat;	
+	background-position: 0px 14px;
+	border-bottom: 1px dashed #dddddd;}
+	
+div.r-content ul li:first-child{
+	border-top: 1px dashed #dddddd;
+}	
+div.strip p{
+	color:#ffffff;
+}	
+	
+	
+	

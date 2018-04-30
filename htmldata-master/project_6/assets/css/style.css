@@ -1,0 +1,293 @@
+/*Banner Style Css*/
+div.banner-content{
+	background:url(../images/banner.jpg) top center/cover no-repeat;
+	padding: 170px 0px 120px;
+	text-align:center;
+}
+
+div.banner-content h1{
+	font-size:60px;
+	color:#fff;
+	margin-bottom:15px;
+	line-height: 1.2;
+	letter-spacing: 1px;}
+
+
+div.banner-content a.button{
+	display:inline-block;
+	text-align: center;
+	padding: 15px 26px;
+	font-size: 21px;
+	word-spacing: -8%;
+	color:#fff;}
+
+/*Content Style Css*/
+div.features{
+	padding:88px 0 59px; }
+
+section.info{
+	float:left;
+	width:62.5%;}
+
+section.info h2{
+	margin-bottom:28px;}
+
+
+span a.read{
+	color:#6fc5e7;
+	text-decoration:underline;}
+	
+span a.read:hover{
+	color:#04355a;}
+	
+figure{
+	float:right;
+	margin-right:1.92%;}
+
+div.features.access{
+	background-color:#eaf1f3;}
+
+figure.monitor{
+	float:left;}
+
+section.info.access{
+	float:right;}
+
+/*promotors-page style*/
+section .first-half{
+	padding:82px 0;
+	background-color:#eaf1f3;
+}
+
+div.first_half_info{
+	float: left;
+	width: 62.5%;
+}
+section .first-half h2{
+	margin-bottom:28px;
+}
+
+figure{
+	float:right;
+	margin-right:2%;}
+
+section .second-half{
+	padding:82px 0;}
+
+section .second-half h2{
+	margin-bottom:33px;}
+
+/*contact page style*/
+section.contact_content{
+	padding: 86px 0px;
+	background-color: #eaf1f3;}
+
+section.contact_content section.addressbar{
+	width: 32.50%;
+	float: right;
+	padding: 0px 2.64% 50px;
+	box-sizing: border-box;}
+	
+section.addressbar h1{	
+	margin-bottom: 32px;}
+	
+section.addressbar address {
+    font-size: 21px;
+    line-height: 1.17;
+    margin-bottom: 35px;}
+	
+section.addressbar a{
+    color: #6fc5e7;
+    font-size: 21px;
+    display: inline-block;
+    margin-bottom: 10px;}
+	
+section.addressbar span {
+    font-size: 21px;
+    display: block;}
+
+section.customer-details{
+	float: left;
+	width: 61.5%;}
+section.customer-details h2{	
+	color: #04355a;
+	margin-bottom: 32px;}
+
+form ul.form-wrap li {
+    margin-bottom: 10px;
+    }
+	
+section.customer-details form input {
+    width: 49.5%;}
+	
+.text-message{
+    font-size: 21px;
+    color: #819aac;
+    width: 100%;
+    height: 200px;
+    border: 1px solid #bccbd4;
+    padding: 14px;
+    resize: none;
+    box-sizing: border-box;}
+
+input.message-buttton{
+	background-color:#6bc4e8;
+	color:#fff;
+	cursor:pointer;}
+	
+/*Signup-page style*/	
+	
+section.signup-content{
+	padding:88px 0;
+	background-color: #eaf1f3;}
+	
+div.data{
+	margin-bottom:40px;}
+	
+section.signup-content h1{
+	margin-bottom:27px;}
+	
+div.user_detail{
+	float: left;
+	width: 64.3%;}			
+
+div.user_detail span.compulsory{
+	font-size: 19px;
+	display: block;
+	color:#6fc5e7;
+}
+div.user_detail span.compulsory{
+	position: absolute;
+	right: 3%;
+	top: 40%;}
+div.user_detail ul li{
+	position: relative;}
+
+div.user_detail p{
+	margin-bottom:38px;}	
+
+.user_detail .right-bar{
+    width: 47.94%;
+    float: right;}
+
+.info .right-bar{
+    float: none;}
+
+.user_detail .left-bar {
+    width: 47.94%;
+    float: left;}
+	
+div.right-bar li span.left{
+	display: inline-block;}
+	
+input[type="radio"] {
+    display: none;}
+    
+input[type="radio"] + label span {
+    background-color: #fff;
+    box-shadow: 0 0 0 1px #bccbd4;
+    display: inline-block;
+    width: 24px;
+    height: 24px;
+    vertical-align: top;
+    cursor: pointer;}
+
+input[type="radio"] + label span{
+  	border: 4px solid #ffffff;
+	margin-right:6px;}
+
+input[type="radio"]:checked + label span{
+  background-color: #6fc5e7;} 
+
+div.right-bar li span.right{
+	display: inline-block;}
+	
+label{
+	display: inline-block;
+	cursor: pointer;
+	position: relative;
+	font-size: 21px;}
+	
+label.second_checkbox{
+	padding-left:25px;}	
+	
+select {
+    width: 100%;
+    height: 50px;
+    padding: 0px 5.17%px;
+    font-size: 19px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background-image: url("../images/arrow.png");
+    background-position: right 10px center;
+    background-repeat: no-repeat;
+    background-color: #ffffff;
+    outline: none;
+    border: 1px solid #bccbd4;
+    color: rgba(129, 154, 172, 0.6);
+    padding: 0px 14px;}
+
+span.agreement{
+	font-size: 19px;
+	display: block;
+	margin-bottom:15px;
+	color:#04355a}
+
+span.agreement a{
+	color:#6fc5e7;
+	text-decoration:underline;}
+
+span.agreement a:hover{
+	text-decoration: none;}
+
+#test1{
+	display:none;}
+	
+[type="checkbox"]:not(:checked) + label,
+[type="checkbox"]:checked + label {
+  position: relative;
+  padding-left: 30px;
+  cursor: pointer;}
+  
+
+[type="checkbox"]:not(:checked) + label:before,
+[type="checkbox"]:checked + label:before {
+  content: '';
+  position: absolute;
+  left: 0; top: 0;
+  width: 23px; 
+  height: 23px;
+  border: 2px solid #ccc;
+  background: #fff;
+  box-shadow: inset 0 #bccbd4;}
+  
+/* checked mark aspect */
+[type="checkbox"]:not(:checked) + label:after,
+[type="checkbox"]:checked + label:after {
+  content: '✔';
+  position: absolute;
+  top: 3px; left: 3px;
+  font-size: 22px;
+  line-height: 0.8;
+  color: #6fc5e7;}
+  
+/* checked mark aspect changes */
+[type="checkbox"]:not(:checked) + label:after {
+  opacity: 0;
+  transform: scale(0);}
+[type="checkbox"]:checked + label:after {
+  opacity: 1;
+  transform: scale(1);}
+
+div.left-bar input[type="submit"] {
+    width: auto;
+    padding: 0px 8.17%;
+    background-color: #6fc5e7;
+    color:#fff;
+    cursor: pointer;
+    border: none;}
+    
+a.button:hover {
+	background-color:#04355a;}	
+input[type="submit"]:hover {
+    color:#6bc5e9;}	

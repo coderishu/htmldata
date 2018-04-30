@@ -1,0 +1,223 @@
+
+/*===============================
+ 1.) Media Query for mobile
+ ===============================*/
+@media only screen and (max-width: 767px) {
+	html{overflow-x: hidden; }
+	#wrapper{min-width: 320px; width: 100%; position: relative;left:0; right: 0;
+		-webkit-transition: all .2s ease;
+		-moz-transition: all .2s ease;
+		-ms-transition: all .2s ease;
+		-o-transition: all .2s ease;
+		transition: all .2s ease;}
+
+	.container {
+		max-width: 620px;
+	}
+
+	/*	Code for global normal responsive header Start*/
+
+	.header {
+		padding: 15px 10px; position: relative;
+	}
+	.header .container {padding-left:  40px;}
+	
+	.header .logo{width: 140px;}
+	
+	.nav li{float: none;}
+	
+	.nav li ul{display: none;}
+	
+	/*Css for slide-left-right --slider in mobile menu*/
+	
+	.nav-button {
+		background: none;
+		border: none;
+		width: 32px;
+		height: 35px;
+		padding: 0;
+		outline: none;
+		cursor: pointer;
+		position: absolute;
+		left:100%;
+		margin: 10px 0 0 10px;
+	}
+	.nav-button span {
+		display: block;
+		width: 100%;
+		height: 5px;
+		margin-bottom: 5px;
+		background: #ffffff;
+		-webkit-transform: rotate(0);
+		-moz-transform: rotate(0);
+		-ms-transform: rotate(0);
+		-o-transform: rotate(0);
+		transform: rotate(0);
+		opacity: 1;
+		-webkit-transition: all .2s ease .4s;
+		-moz-transition: all .2s ease .4s;
+		-ms-transition: all .2s ease .4s;
+		-o-transition: all .2s ease .4s;
+		transition: all .2s ease .4s;
+		position: relative;
+		top:0;
+	}
+	
+	.navbar {
+		position: fixed;
+		width: 80%;
+		height: 100%;
+		top: 0;
+		left: -80%;
+		-webkit-transition: all .2s ease;
+		-moz-transition: all .2s ease;
+		-ms-transition: all .2s ease;
+		-o-transition: all .2s ease;
+		transition: all .2s ease;
+		padding: 0;
+	}
+	
+	.navbar .nav{position: absolute; height: 100%;width: 100%;
+		background: rgba(0,0,0,1);
+		z-index: 99;
+		overflow: auto;
+	}
+	.nav {
+		padding: 20px;
+	}
+	.nav > li {
+		display: block;
+		margin: 0px 0px 15px 0px;
+	}
+	.nav > li a {
+		color: white;
+	}
+	body.slide-nav{overflow-x: hidden;}
+	body.slide-nav #wrapper{left: 80%;}
+	body.slide-nav .navbar {
+		left: 0;
+		-webkit-box-shadow: 0 0 500px 500px rgba(0,0,0,0.4);
+		-moz-box-shadow: 0 0 500px 500px rgba(0,0,0,0.4);
+		-ms-box-shadow: 0 0 500px 500px rgba(0,0,0,0.4);
+		-o-box-shadow: 0 0 500px 500px rgba(0,0,0,0.4);
+		box-shadow: 0 0 500px 500px rgba(0,0,0,0.4);
+	}
+	
+	body.slide-nav .nav-button .icon-bar1 {
+		-webkit-transform: rotate(-45deg);
+		-moz-transform: rotate(-45deg);
+		-ms-transform: rotate(-45deg);
+		-o-transform: rotate(-45deg);
+		transform: rotate(-45deg);
+		position: relative;
+		top: 8px;
+	}
+	body.slide-nav .nav-button .icon-bar2 {
+		opacity: 0;
+	}
+	body.slide-nav .nav-button .icon-bar3 {
+		-webkit-transform: rotate(45deg);
+		-moz-transform: rotate(45deg);
+		-ms-transform: rotate(45deg);
+		-o-transform: rotate(45deg);
+		transform: rotate(45deg);
+		position: relative;
+		top: -12px;
+	}
+	
+	
+	/*right to left slide*/
+	body.nav-rtl .header .container {padding-left: 0; padding-right: 40px;}    
+    body.nav-rtl .header .navbar{left: auto;right: -80%;}
+	body.nav-rtl .header .nav-button{left: auto;right: 100%; margin: 10px 10px 0 0;}		
+	body.nav-rtl.slide-nav #wrapper{left: auto;right: 80%;}
+	body.nav-rtl.slide-nav .header .navbar{right: 0%;}
+	
+	
+	/*overlap right to left slide*/
+	body.overlap-nav-rtl .header .container {padding-left: 0;  padding-right: 40px;}    
+    body.overlap-nav-rtl .header .navbar{left: auto;right: -80%;}
+	body.overlap-nav-rtl .header .nav-button{left: auto;right: 100%; margin: 10px 10px 0 0;}		
+	body.overlap-nav-rtl.slide-nav #wrapper{left: auto;right: auto;}
+	body.overlap-nav-rtl.slide-nav .header .navbar{right: 0%;}	
+	
+	
+	/*overlap left to right slide*/
+	body.overlap-nav-ltr.slide-nav #wrapper{left: auto;right: auto;}
+	
+	
+	/*Toggle slide*/
+	body.nav-toggle .header .container {padding: 0;position:relative;}    
+    body.nav-toggle .header .navbar,		
+	body.nav-toggle #wrapper {position: static;}
+	body.nav-toggle .header .navbar .nav{display: none; position: relative;}
+	body.nav-toggle .header .navbar{width: 100%; clear: both;}
+	body.nav-toggle .navbar{padding-top: 10px;}
+	body.nav-toggle.slide-nav .navbar {left: 0;
+		-webkit-box-shadow: 0 0 0 0 transparent;
+		-moz-box-shadow: 0 0 0 0 transparent;
+		-ms-box-shadow: 0 0 0 0 transparent;
+		-o-box-shadow: 0 0 0 0 transparent;
+		box-shadow: 0 0 0 0 transparent;		
+	}	
+	body.nav-toggle .header .nav-button{right: 0; top:0; left: auto; margin-right: 10px;}
+	
+/*	Responsive header end*/
+}
+/*===============================
+ 0.) Media Query for Extra small devices Tablets
+ ===============================*/
+@media only screen and (max-width: 575px) {
+	.container {
+		max-width: 86%;
+	}
+}
+/*===============================
+1.) Media Query for Small devices Tablets
+ ===============================*/
+@media only screen and (min-width: 576px) {
+	.container {
+		max-width: 556px;
+	}
+}
+
+/*===============================
+ 2.) Media Query for Medium devices Tablets
+ ===============================*/
+@media (min-width: 768px) {
+	.container {
+		max-width: 750px;
+	}
+
+	.nav-collapse {
+		display: block !important;
+	}
+
+	.hidden-block {
+		display: none;
+	}
+	
+.nav li ul {position: absolute; left: 0; top: 100%; min-width: 200px; background: black; display: none;padding: 10px 0;}
+.nav li ul li{float: none; padding: 4px 8px;}
+.nav li ul a{color: white;}
+.nav li:hover > ul { display:block;}
+.nav li ul ul{left: 100%;top: 0;}
+}
+
+/*===============================
+ 3.) Media Query for Large devices Desktops
+ ===============================*/
+@media (min-width: 992px) {
+	.container {
+		max-width: 970px;
+	}
+}
+
+/*===============================
+ 4.) Media Query for Extra large devices Desktops
+ ===============================*/
+@media (min-width: 1200px) {
+	.container {
+		max-width: 1170px;
+	}
+}

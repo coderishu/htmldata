@@ -1,0 +1,98 @@
+/************************************************************************************
+larger than 1199
+*************************************************************************************/
+@media screen and (min-width: 1199px) {
+
+
+}
+
+
+
+
+
+/************************************************************************************
+larger than 991
+*************************************************************************************/
+@media screen and (min-width: 991px) {
+
+.services-heading h2{
+	text-align:right;
+}
+.services-heading span{
+	text-align:right;
+	display: block;
+}
+
+.services-detail a.btn{
+	float: right;
+}
+.services-detail p{
+	text-indent: 52px;
+}
+.image_detail i{
+	zoom:1;
+    -moz-transform:scale(1);
+}
+.image_detail span {
+	font-size: 14px;
+}
+
+
+}
+/************************************************************************************
+larger than 768 less than 991
+*************************************************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+
+	
+}
+
+/************************************************************************************
+larger than 768
+*************************************************************************************/
+
+@media screen and (min-width: 767px){
+
+/*header css*/
+
+.navbar-default {
+	border-bottom:1px solid #dde4ea;
+}
+.nav li a{
+	border-right:1px solid #dde4ea;
+}
+.header-bottom{
+	padding: 20px 0;
+}
+.logo-wrap{
+	float: left;
+}
+.contact-info{
+	float:right;
+}
+.email{
+	float:left;
+	padding-left:5.8%;
+	margin-left: 5.7%;
+	border-left: 1px solid #dde4ea;
+}
+.header-bottom strong{
+	font-size: 20px;
+	line-height: 1;
+}
+
+.contact-info{
+	width:35%;
+}
+
+.services{
+	/*background:url(../images/top-arrow.png) no-repeat;*/
+}
+
+
+
+
+
+
+
+}

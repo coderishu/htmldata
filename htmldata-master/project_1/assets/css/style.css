@@ -1,0 +1,46 @@
+
+
+/*5.) Banner Style ---------------------------*/
+div img.banner{
+	height:517px;}
+/*End Banner Style ---------------------------*/	
+
+/*6.)Content Style ---------------------------*/
+ div.content div.container{
+	padding: 34px 10px 63px 10px;
+	box-sizing: border-box;}
+
+div.container div.link{
+	margin-right:61px;
+	float:left;
+	width:276px;
+	text-align: center;
+	min-height: 385px;}
+
+div.container div.link a.learn{
+	font-family:Georgia;
+	font-size: 14px;
+	font-style: italic;
+	text-decoration:underline;
+	background:url("../images/content-symbol.png") no-repeat;
+	background-position: right; 
+	padding-right:10px;}
+div.container div.link a.learn:hover{color:#0c3b6f; text-decoration:none;}	
+	
+div.container div.link:last-child{margin-right:0px;}
+.image-wrapper{
+	position:relative;
+	margin-bottom:26px;}	
+div.link p.image-content{
+	padding-bottom:10px;}		
+.icon{
+	position:absolute;
+	height: 36px;
+	width:36px;
+	left:51%;
+	bottom:-18px;
+	margin-left:-18px;
+	background:url(../images/sprite2.png) no-repeat;}
+.icon.a{background-position:-36px 0;}
+.icon.b{background-position:-72px 0;}	
+

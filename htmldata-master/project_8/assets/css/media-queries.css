@@ -1,0 +1,360 @@
+/************************************************************************************
+larger than 768
+*************************************************************************************/
+@media screen and (min-width: 768px){
+.header-top{padding: 20px 0;}
+
+span.note{
+	font-size:15px;
+	color: #fdcb9c;}
+.email i{
+	font-size: 21px;}
+.email a{
+	display:inline-block;}
+.social-media-icons i{
+	color: #ffcc9d;
+	margin-left: 4px;
+	font-size: 21px;}	
+		
+.navbar-default .navbar-brand {width:185px;}
+
+.nav-wrapper{float:right;}
+
+.navbar-btn{margin-left:8px;}
+
+/*Banner Styles*/
+
+.carousel {
+   position:absolute !important;}
+   
+.banner-inner{
+	margin-bottom:60px;
+}   
+   
+/*About style   */
+.about{
+	margin-bottom:60px;
+}
+
+
+.left-content {
+	width:51.8%;
+	float:left;
+	padding-top:75px;
+}
+
+.left-content h3{width:87.1%;}
+	   
+.left-content li{width:36.3%;}
+
+.left-content li:last-child{width:27.4%;}
+
+.left-content li strong{display: block;}
+
+.image-gallery{
+	width:42.7%;
+	float:right;	
+} 
+
+.image-wrapper.left{
+	margin-bottom:131px;}
+
+.image-wrapper.right{
+	margin-top:131px;}
+	
+.image-wrapper li{
+	margin-bottom:19px;}
+	
+
+/*thumbnail section*/
+#slider{
+	width:51%;
+}	
+
+.thumbnail-heading{
+	float:right;
+	width:29.7%;}	
+	
+
+
+
+/*portfolio section*/
+.work_field{
+	margin-bottom: 80px;
+	padding-bottom: 0;}
+.delivery-office:last-child h3{
+	margin-top: 106px;}
+	
+.delivery-office h3{
+	font-size: 2.5rem;}
+	
+.delivery{
+	padding-top: 106px;}
+	
+.delivery-office h3{
+	margin-top: 46px;}
+	
+.our-project{
+	top:47%;}
+		
+/*review section*/
+.review-heading{width: 46.2%;}
+
+
+.review-heading h2{font-size:30px;}
+.review-heading h2 strong{font-size:50px;}
+.review-heading span{font-size:15px;}	
+
+
+
+
+
+/*logos section	*/
+
+.company-logo ul li{
+	width:16.66%;}
+	
+/*quote section	*/	
+.quote{
+	position:relative;}
+.left-quote{
+	width: 50%;
+/*	float: left;*/
+}
+.quote-content{
+	position: absolute;
+	padding-top:8px;
+	width: 36%;
+}
+
+.right-quote{
+	width: 50%;
+	float: right;}
+	
+.left-quote h4{
+	font-size:20px;
+	line-height: 19px;}
+.left-quote strong{margin-bottom:8px;}		
+	
+.left-quote .btn.btn-primary.btn-md.quote{
+	padding:8px 20px;
+}	
+
+		
+
+}
+/************************************************************************************
+between than 768 to 991
+*************************************************************************************/
+@media (min-width: 768px) and (max-width: 991px) {
+.carousel {
+   position:absolute;
+    width: 40%;
+    bottom: 10%;
+    right: 12%;
+}
+
+#myCarousel h4 {
+    font-size: 12px;
+    padding: 14px 0 7px 12px;}
+
+#myCarousel h4::after{
+	height: 35px;
+}
+    	
+.carousel-inner > .item{
+    padding: 3%;
+}
+
+.item h3 {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
+.item p {
+    font-size: 10px;
+    line-height:16px;
+    margin: 5px 0;
+}
+.btn.btn-primary.btn-lg {
+    margin: 5px 0 5px 0;
+    padding: 7px 8px;
+    font-size: 10px;
+}
+
+}
+
+
+
+
+/************************************************************************************
+larger than 991
+*************************************************************************************/
+@media screen and (min-width: 991px) {
+	
+.carousel {
+    width: 47%;
+    bottom: 4%;
+    right: 5%;
+}
+
+#myCarousel h4 {
+    font-size: 12px;
+    padding: 14px 0 7px 12px;}
+
+#myCarousel h4::after{
+	height: 35px;
+}
+    	
+.carousel-inner > .item{
+    padding: 4.5%;
+}
+
+.item h3 {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.item p {
+    font-size: 13px;
+    line-height:16px;
+    margin: 8px 0;
+}
+.btn.btn-primary.btn-lg {
+    margin: 5px 0 5px 0;
+    padding: 10px 8px;
+    font-size: 14px;
+}
+
+
+/*portfolio sectiom*/
+.icon-design{
+	background-size: auto;
+	height:42px;
+	width: 34px;
+}
+.icon-managment{
+	background-size: auto;
+	height:42px;
+	width: 42px;
+		background-position: -34px;
+}
+.icon-delivery{
+	background-size: auto;
+	height: 42px;
+	width: 33px;
+	background-position: -76px;
+}
+
+.work_field li{
+	padding-right: 13%;
+}
+
+	
+	
+}
+
+
+
+/************************************************************************************
+larger than 1199
+*************************************************************************************/
+@media screen and (min-width: 1199px) {
+
+.navbar-header{
+	padding: 10px;
+}
+
+
+.navbar-default .navbar-brand {width:67%;}
+.navbar-brand > img{width:auto;}
+
+.nav > li > a{
+	font-size:13.5px;
+	padding: 21px 18px;}
+	
+.navbar-btn{
+	margin: 19px 0 14px 8px;
+}	
+
+a.telephone{display:inline-block;}
+
+/*Banner Styles*/
+.carousel {
+    width: 37%;
+	bottom: 15%;
+	right: 14.9%;
+}
+
+#myCarousel h4 {
+   	font-size: 14px;
+	padding: 22px 0 16px 12px;}
+
+#myCarousel h4::after{
+	height: 55px;
+}
+    	
+.carousel-inner > .item{
+    padding: 4%;
+}
+
+.item h3 {
+    font-size: 18px;
+    margin-bottom: 0px;
+}
+.item p {
+   	font-size: 16px;
+	line-height: 24px;
+	margin: 8px 0;
+}
+.btn.btn-primary.btn-lg {
+    margin: 11px 0 5px 0;
+    padding: 10px 8px;
+    font-size: 16px;
+}
+	
+
+/*portfolio*/
+
+.our-project{
+	opacity: 1;
+	padding: 47px 30px 47px 30px;
+}
+.delivery{
+	padding-bottom: 152px;
+}		
+.work_field li{
+	padding-right: 19%;
+}		
+
+
+/*quote section*/
+.quote-content{
+	padding-top:90px;
+	width:32%;
+}
+
+.left-quote h4{
+	font-size:23px;
+	line-height: 33px;}
+	
+.left-quote strong{
+	margin-bottom:15px;
+	width: 73%;
+}
+
+.left-quote .btn.btn-primary.btn-md.quote{
+	padding:12px 25px;}
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,36 @@
+-----mailchimp edit code-----------
+
+------login details mail chimp-------- 
+
+username:rohit12345 
+password :rohit@12345
+
+
+1.) mc:repeatable="id-1"   -----main section tr---------id should be diffrent----- 
+
+2.) mc:edit="logo-1" label="logo1"   -----attribute in img tag except blank-----id should be diffrent----- 
+
+3.) mc:edit="nav1"       ------- add in all text td tag------
+
+
+-----campaign monitor edit code-----------
+
+------login details campaign monitor-------- 
+
+username:vikassh@csschopper.com
+password :vikas@123
+
+
+1.) <repeater>
+                    <layout label="sec-2">
+
+ -----main section tr should wrap in this code------------
+
+</layout>
+                </repeater>
+
+2.) <singleline> </singleline>    -----all single text should wrap-------
+
+3.) <multiline>  </multiline>     -----all multiline text should wrap-------
+   
+4.) editable="true"   ---all img tag have this attribute except blank----

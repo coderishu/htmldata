@@ -1,0 +1,364 @@
+/*=============================================
+ Table Of Contents
+ 1.) Eric Meyer's Reset
+ 2.) Global Typography
+	 2.0.1) Font Face
+	 2.0.2) Global Headings
+	 2.0.3) General Text Formatting
+	 2.0.4) Global Link style
+	 2.0.5) Global Button Styles
+	 2.0.6) Global Sprite Icons and Clearfix style
+ 3.) Global Site Wide Content
+ 4.) Header Style
+ 5.) Footer Style
+ ===============================================*/
+/* 1.) Eric Meyer's Reset ---------------------------------------------*/
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after, q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/* 2.) Global Typography ---------------------------------------------*/
+*, :before, :after{
+	box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-webkit-box-sizing: border-box;
+}
+html {
+	-ms-text-size-adjust: 100%;
+	-webkit-text-size-adjust: 100%;
+	font-size: 100%;
+}
+body {
+	font-size: 62.5%;
+	font-family: 'Roboto', sans-serif;
+	color: #000;
+}
+/* 2.0.1) Font Face ---------------------------------------------*/
+    /*font-family: 'Roboto', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Dancing Script', cursive;*/
+/* Put Your font face Styles here---------------------------------------------*/
+
+
+/* 2.0.2) Global Headings ---------------------------------------------*/
+h1, h2, h3, h4, h5, h6 {
+	font-weight: normal;
+	color: #161e21;
+}
+h1 {
+	font-family: 'Oswald', sans-serif;
+	font-size: 67px;
+	
+}
+h2 {
+	color: red;
+}
+h3 {
+}
+
+h4 {
+	
+}
+h5 {
+	text-transform:uppercase;
+}
+h6 {
+
+}
+/* 2.0.3) General Text Formatting ---------------------------------------------*/
+p {
+	
+}
+blockquote, cite, q, var, dfn {
+	font-style: italic;
+}
+small {
+	font-size: 85.71429%;
+	line-height: 1.75;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+/* 2.0.4) Global Link style ---------------------------------------------*/
+a {
+	font-size: 15px;
+	text-decoration: none;
+	outline: none;
+	font-weight: 700;
+}
+a:hover, a:focus {
+	color:#7b83d1;
+}
+/* 2.0.5) Global Button Styles ---------------------------------------------*/
+.button {
+}
+
+.button:hover, .button:focus{
+	
+}
+/* 2.0.6) Global Sprite Icons and Clearfix style ---------------------------------------------*/
+[class^="icon-"], [class*="icon-"] {
+	background-image: url(../images/sprite.png);
+	background-position: 0 0;
+	background-repeat: no-repeat;
+	display: inline-block;
+	height: 15px;
+	vertical-align: text-top;
+	width: 15px;
+}
+/* Clear Floated Elements by use Clearfix class---------------------------------------------*/
+.clearfix:after {
+	clear: both;
+	content: ' ';
+	display: block;
+	font-size: 0;
+	line-height: 0;
+	visibility: hidden;
+	width: 0;
+	height: 0;
+}
+.clearfix {
+	display: inline-block;
+}
+* html .clearfix {
+	height: 1%;
+}
+.clearfix {
+	display: block;
+}
+/* 3.) Global Site Wide Content ---------------------------------------------*/
+body{
+	/*background:url(../images/home_new.jpg) top center no-repeat;*/
+}
+
+#wrapper {
+	/*opacity: 0.5;*/
+}
+
+	
+
+/* ------------------  Code for UI Tools Removed this section from your project --------------------------- */
+.container
+{
+	max-width:1024px;
+	margin: 0 auto;}
+	
+
+
+/* 4.) Header Styles ---------------------------------------------*/
+.header {
+	position: relative;}
+.header-top{
+	padding: 16px 0px 12px 0;
+	background-color: #232221;
+	border-bottom: 6px solid #0a0a0a;
+}
+a.logo{
+	position:absolute;
+	left: 50%;
+	margin-left:-108px;
+}
+
+.nav-bar{
+	float: right;
+}
+.nav{
+	position: absolute;
+	top: 100%;
+	width: 100%;	
+	left: 0;
+	text-align: center;
+	background-color: #3f3f36;
+	z-index: 1;
+	opacity: .8;}
+
+.nav li{
+	display: inline-block;
+} 
+.nav li a{
+	font-family: 'Roboto', sans-serif;
+	font-size:16px;
+	font-weight:300;
+	padding: 29px 21px 31px 21px;
+	display:block;
+	text-transform: uppercase;
+	letter-spacing:1px; 
+	color:#fff;
+	position: relative;}
+	
+.nav li a:hover{
+	color:#ff2450;
+}	
+
+.nav li a::after{
+	content: "";
+	height:4px;
+	width:100%;
+	position: absolute;
+	top:0;
+	left: 0;
+	background-color:#ff2450;
+	display:none;
+}		
+.nav li a:hover::after{
+	display: block;}
+/*mobile-view menu*/
+
+.nav-button span{
+	display:block;
+	width: 100%;
+    height: 2px;
+    margin-bottom: 5px;
+    background: #fff;
+}
+.nav-button{ 
+    background: none;
+    border: none;
+    float: none;
+    width: 21px;
+    height: 17px;
+    padding: 0;
+    outline: none;
+    cursor: pointer;
+    position: absolute;
+    right: 5%;
+    top:26%;
+    display: none;
+    z-index: 1;
+    outline: none;
+}	
+
+
+form.header_form{
+	float:right;
+	margin: 9px 0 20px 0;}
+	
+	
+input[type="text"]{
+	width: 235px;
+	height:38px;
+	padding: 11px 9px 10px;
+	font-size: 15px;
+	border: none;
+	font-weight: 300;
+	float: left;
+	border-radius: 0;
+	-webkit-appearance:none;
+	-webkit-border-radius: 0;}
+	
+input[type="submit"]{
+	width: 50px;
+	height:38px;
+	outline:none;
+	float: left;
+	border: none;
+	background: #ffffff url('../images/search_icon.gif') center no-repeat;
+	cursor: pointer;}	
+
+.icon-search{	
+	height: 19px;
+	width: 19px;
+	background:url(../images/sprite.png) no-repeat;
+	background-position: -197px -5px;
+	position: absolute;
+	top: 25%;
+	right: 17%;
+	cursor: pointer;
+	display:none;
+	}
+
+
+/* 5.) Footer Styles ---------------------------------------------*/
+.footer {
+	background-color:#232221;
+}
+.footer-top{
+	padding: 27px 0 17px;
+	border-bottom:1px solid #413f3d;
+}
+.footer-logo{
+	float: left;
+}
+.nav_footer{
+	float:right;}
+.nav_footer li{
+	float: left;
+	margin:19px 0 0 47px;}
+.nav_footer li:last-child{
+	margin-right:0;}
+	
+.nav_footer li a{
+	font-size:13px;
+	font-weight:300;
+	color:#fff;
+	text-transform: uppercase;}
+	
+.nav_footer li a:hover{
+	color:#e2244a;
+}
+.footer-bottom{
+	padding:20px 0 252px;
+}
+.copyright{
+	float: left;
+}
+.copyright span{
+	font-size:11px;
+	font-weight:500;
+	color: #464646;}
+
+
+.social-media{
+	float: right;
+}
+.social-media span{
+	font-size:16px;
+	color: #464646;
+	
+}
+.social-media i{
+	font-size: 16px;
+	color:#232221;
+	background-color:#393939;
+	margin-left:18px;
+	border-radius: 20px;
+	padding: 6px;}
+
+.social-media i:hover{
+	color:#eb0649;
+}
+
+
+
+
+
+
+
+
+

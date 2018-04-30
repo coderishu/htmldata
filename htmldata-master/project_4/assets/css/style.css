@@ -1,0 +1,355 @@
+
+/* 5.) Banner style Start*/
+div.banner{
+	background:url(../images/banner.jpg) center top no-repeat;
+	height: 390px;
+	width:100%;}
+	
+div.banner h1{
+	font-size:40px;
+	text-transform: uppercase;
+	display: inline-block;
+	padding: 90px 0 0 0;
+	line-height: 50px;
+	color:#ffffff;
+	margin-bottom:15px;}
+
+div.banner h1 i{font-style: italic;}
+		
+div.banner div.left-content{
+	width:541px;}	
+	
+	
+div.banner div.dog{
+	float: right;
+	margin:20px 70px 0 0;}	
+	
+.button-wrapper a.button{
+	display: inline-block;
+	color:#ffffff;
+	font-size: 18px;
+	padding: 16px 24px;
+	margin-bottom: 85px;}
+	
+.button-wrapper a.button.left{
+	background-color:#013b82;
+	margin-right:18px;}
+	
+.button-wrapper a.button.left:hover{
+	background-color: #ed1c24;
+	color:#013b82;}	
+.button-wrapper a.button.left.inspection:hover{
+	transform: translateY(-6px);
+}	
+	
+	
+.button-wrapper a.button.right{
+	background-color:#ed1c24;}
+.button-wrapper a.button.right:hover{
+	background-color:#013b82;
+	color: #ed1c24;}
+	
+/*page-2 banner css*/	
+i.header-banner{
+	background-color: #efeeee;
+	height:59px;
+	display: block;}
+	
+		
+	
+
+/*6.) content styles start*/	
+		
+div.content div.news-logo{
+	padding:13px 0;
+	background-color:#f6f6f6;
+	border-top:1px solid #dededd;
+	border-bottom: 1px solid #dededd;}	
+	
+	
+div.content div.news-logo span{
+	float:left;
+	padding: 8px 0 0 0;
+
+	margin-right:36px;
+	font-size:15px;
+	color:#858383;}
+	
+div.news-logo ul{
+	float: left;
+}
+div.news-logo ul li{
+	float: left;
+	padding: 7px 28px;}		
+
+div.news-logo ul li:first-child{border-left: 1px solid #dededd;}	
+
+div.info{padding-top:51px;}
+
+div.info div.container div.info-content{border-bottom: 1px solid #cdcccb;}
+
+div.info div.description{
+	float:left;
+	width:475px;
+	padding:0 25px 60px 35px;}
+	
+div.info div.description:nth-child(even){margin-right:30px;}
+
+div.info div.description div.image-wrapper{
+	float:left;
+	padding:0 17px 0 0;}
+
+div.info div.description div.paragraph-wrapper{	
+	float: left;
+	width:393px;
+}
+
+div.info div.description div.paragraph-wrapper h4{margin-bottom:5px;}	
+
+
+div.info div.description div.paragraph-wrapper p{
+	font-size: 16px;
+	color:#676767;
+	width: 393px;
+	line-height: 26px;
+	min-height: 120px;}
+		
+div.image-gallery{
+	padding-top:60px;
+	text-align:center;}
+
+div.gallery-image-wrapper{
+	float: left;
+	width:349px;
+	margin-right: 26px;}	
+div.gallery-image-content{margin-bottom: 35px;}
+h3 span{
+	font-family: 'Lobster', cursive;
+	font-size: 30px;
+	color: #ed1c24;
+	background-color: #ffffff;
+	display: inline-block;
+	padding: 0px 11px 4px 11px;
+	position: relative;}
+	
+h3:before {
+    content: "";
+    display: block;
+    border-top: solid 1px #cdcccb;
+    border-bottom:solid 1px #cdcccb;
+    width: 100%;
+    height:6px;
+    position: absolute;
+    top: 44%;}		
+	
+	
+div.gallery-image-wrapper.block{margin-right:0;}
+	
+div.gallery-image-wrapper a{position: relative;}
+
+div.gallery-image-wrapper .icon-arrow{
+	background: url(../images/arrow.png) no-repeat;
+	position:absolute;
+	right: 17px;
+	bottom: 22px;
+	height:9px;
+	width:16px;
+	/*border:1px solid red;*/
+	}
+
+
+div.gallery-image-wrapper a span.hover-content{
+	position: absolute;
+	background: url(../images/hover.png);
+	display:none;
+	right: 0;
+	bottom: 3px;
+	font-size: 16px;
+	font-weight: 500;	
+	width: 100%;
+	height: 84px;
+	text-align: right;
+	padding: 49px 38px 0px 0px;
+	box-sizing: border-box;
+	color:#ffffff;}
+	
+div.gallery-image-wrapper:hover span.hover-content{
+	display: block;}	
+	
+div.certified-logo{
+	display: inline-block;
+	margin-bottom: 63px;}
+	
+div.certified-logo a{
+	padding:0 14px 0 10px;}	
+
+div.quote {
+	text-align:center;
+	background-color:#f6f6f6;
+	border-top: 1px solid #dededd;}
+	
+div.quote p{
+	margin-bottom:6px;
+	font-family:Georgia;
+	font-style:italic;
+	line-height:42px;
+	font-size: 24px;
+	color:#676767;
+	padding: 58px 28px 9px 28px;}
+	
+div.quote strong.writer-name{
+	display: block;
+	color: red;
+	font-weight: 400;
+	font-size: 18px;
+	padding-bottom: 57px;}		
+	
+/*page-2 content css*/
+
+div.content-home-inspection{
+	padding:47px 0 48px 0;}
+	
+div.left-content{
+	float: left;
+	width:277px;
+	margin-right: 57px;}
+	
+div.left-content h3{
+	text-align:center;
+	margin-bottom:6px;}
+	
+
+div.left-content h3 span{
+	font-size: 24px;}
+
+div.above-text p{
+	font-family:Georgia;
+	font-style:italic;
+	font-size:15px;
+	line-height:32px;
+	margin-bottom: 10px;
+	color: #7d7b7c;}
+	
+
+div.above-text strong.writer-name{
+	display: block;
+	color: red;
+	font-weight: 500;
+	font-size: 14px;
+	margin-bottom: 30px;}
+
+div.below-text{
+	text-align:center;}
+div.below-text a{
+	display: block;
+	margin-bottom:11px;}	
+	
+	
+div.below-text span.image-caption{
+	font-family: 'Source Sans Pro';
+	font-size: 16px;
+	font-weight: 500;
+	color:#ffffff;
+	display:block;
+	padding: 19px 0px;
+	background-color:#013b82;
+	text-transform:uppercase;
+	position:relative;}
+		
+div.below-text  i.icon-arrow {	
+	background: url(../images/arrow.png) no-repeat;
+	position: absolute;
+	right: 17px;
+	bottom: 16px;}
+
+
+div.below-text strong{
+	font-size:21px;
+	font-weight: 600;
+	color:#676767;}
+	
+div.below-text strong span{color:#ed1c24;}
+
+
+div.right-content{
+	float: left;
+	width: 766px;}
+
+
+div.right-content h1{
+	font-family: 'Source Sans Pro';
+	font-size:36px;
+	text-transform:uppercase;
+	color: #ed1c24;
+	margin-bottom: 25px;}
+	
+	
+div.right-content div.right-image{
+	float:right;
+	margin-left:32px;}	
+
+
+div.right-content p{
+	margin-bottom:10px;}
+	
+/*3rd Page Content Css*/
+div.our-process{
+	padding:45px 0 48px 0;}
+	
+	
+div.process-info h1{
+	font-family: 'Source Sans Pro';
+	font-size:36px;
+	text-transform:uppercase;
+	color: #ed1c24;
+	margin-bottom: 15px;}
+			
+div.process-info p{
+	margin-bottom:21px;}
+
+div.process-info{
+	float: left;
+	width: 766px;}
+
+
+
+div.box{
+	width:372px;
+	float: left;}
+	
+div.box:first-child{margin-right:22px;}	
+	
+div.box h4{
+	font-size:21px;
+	font-weight:500;
+	text-transform:uppercase;
+	color:#ffffff;
+	background: #013b82;
+	display: block;
+	padding: 8px 0;
+	text-align: center;}	
+
+div.list{background-color:#f6f6f6;}
+
+div.box div.list ul{padding: 15px 13px 20px 17px;}
+
+div.box div.list ul li{
+	font-family:Myriad Pro;
+	font-size:16px;
+	font-weight: 400;
+	line-height: 26px;
+	color: #666766;
+	padding-bottom:12px;
+	padding-left:23px;
+	background: url(../images/tick.png) no-repeat;
+	background-position: 4px 8px;}
+	
+div.box div.list ul li:last-child{padding-bottom:0;}	
+
+
+
+
+
+
+		
+			
